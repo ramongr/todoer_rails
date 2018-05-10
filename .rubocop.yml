@@ -53,6 +53,7 @@ AllCops:
     - 'vendor/**/*'
     - '.git/**/*'
     - 'db/migrate/**/*'
+    - 'config/**/*'
   DefaultFormatter: progress
   DisplayCopNames: true
   DisplayStyleGuide: false
