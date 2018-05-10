@@ -54,6 +54,7 @@ AllCops:
     - '.git/**/*'
     - 'db/migrate/**/*'
     - 'config/**/*'
+    - 'Gemfile'
   DefaultFormatter: progress
   DisplayCopNames: true
   DisplayStyleGuide: false
