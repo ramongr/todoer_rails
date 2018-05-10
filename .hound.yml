@@ -1,0 +1,7 @@
+scss:
+  config_file: .sass-lint.yml
+rubocop:
+  config_file: .rubocop.yml
+jshint:
+  config_file: .jshint.yml
+fail_on_violations: true
