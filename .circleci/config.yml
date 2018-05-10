@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/todoer
+    docker:
+      - image: circleci/ruby:2.4.2
+      environment:
+          RAILS_ENV: test
+    steps:
+      - checkout
+      - run: bundle exec rspec
