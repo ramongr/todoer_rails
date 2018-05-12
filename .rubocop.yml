@@ -52,7 +52,7 @@ AllCops:
     - 'node_modules/**/*'
     - 'vendor/**/*'
     - '.git/**/*'
-    - 'db/migrate/**/*'
+    - 'db/**/*'
     - 'config/**/*'
     - 'Gemfile'
   DefaultFormatter: progress
