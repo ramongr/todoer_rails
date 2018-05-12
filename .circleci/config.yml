@@ -1,25 +1,6 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/todoer
-    docker:
-      - image: circleci/ruby:2.4-node-browsers
-      - image: circleci/mysql:5.7.22
-      environment:
-          RAILS_ENV: test
-    steps:
-      - checkout
-      - run:
-          name: Install dependencies
-          command: |
-            bundle exec rspec
-# Ruby CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-ruby/ for more details
-#
-version: 2
-jobs:
-  build:
     docker:
       # specify the version you desire here
        - image: circleci/ruby:2.4-node-browsers
